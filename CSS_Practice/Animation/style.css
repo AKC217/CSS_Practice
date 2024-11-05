@@ -1,0 +1,60 @@
+#rotate{
+  
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+    /* transform: rotate(50deg); */
+    /* transform: translate(40px ,20px); */
+     /* transform: scale(4,1);  orignal size (1,1) */
+
+     /* transform: skew(20deg);*/
+/*      
+     transform: matrix(2,0,3,2,5,5);  */
+     /* transform: scale(2) rotate(20deg) skew(10deg) translate(100,100); */
+
+}
+
+h1{
+    transform: rotateX(180deg);
+}
+
+
+#rotate{
+    background-color:blueviolet;
+    /* transition-property:background-color;
+    transition-duration: 10s;
+    transition-delay: 3s;
+    transition-timing-function: ease-in; */
+ 
+/* 
+    transition-property:width 10s ease-in 0s,background-color 5s ease-in 2s; */
+
+
+}
+
+#rotate:hover{
+   /* background-color: aqua;
+   width: 500px; */
+
+   animation-name: widthandcolor;
+   animation-delay: 2s;
+   animation-duration: 5s;
+   animation-iteration-count: 3;
+   animation-direction: reverse;
+}
+
+
+@keyframes widthandcolor {
+    0%{
+        background-color: rgb(64, 6, 73);
+        width: 200px;
+    }
+    50%{
+        background-color: black;
+    }
+
+    100%{
+        background-color: aquamarine;
+        width: 400px;
+    }
+}

@@ -1,0 +1,41 @@
+/*This is a comment*/
+
+body{
+    /* background-color: yellow; */
+    background-image: url(https://carnivorouslreviews.wordpress.com/wp-content/uploads/2018/04/images170.jpg);
+    /* background-repeat:repeat-x; */
+    background-repeat: repeat;
+    background-attachment: fixed;
+}    
+
+/*universal selctor*/
+*{
+    color:rgb(168, 11, 11);
+}
+
+/*Id selectors*/
+#para{
+    color:greenyellow;
+    font-size: larger;
+}
+
+/* class selectors*/
+.basic{
+    color:orangered;
+}
+
+/*tagname selector*/
+h1{
+    color:brown;
+}
+
+
+pre{
+    color:blueviolet;
+    font-weight: bolder;
+}
+
+h2{
+    color:blue;
+    background-color: aqua;
+}

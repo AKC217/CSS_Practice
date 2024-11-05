@@ -1,0 +1,21 @@
+
+
+table{
+    border-collapse: collapse;
+    width:100%;
+    text-align: left;
+}
+th,td{
+    padding:10px;
+    border-bottom: 1px solid #ddd;
+    
+}
+/*This is one way*/
+
+tr:hover{background-color:pink;}
+tr:nth-child(even){background-color:lightcyan;}
+
+th{
+    background-color: deeppink;
+    color: aliceblue;
+}

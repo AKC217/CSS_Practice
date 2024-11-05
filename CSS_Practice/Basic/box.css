@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing:inherit;
+}
+#div1{
+    font-size: larger;
+    border:5px solid red;
+    padding: 10px;
+    margin-bottom: 5px;
+    width:400px;
+    height:100px;
+}
+#div2{
+    font-size: larger;
+    border:5px solid red;
+    padding:10px;
+    margin-bottom: 5px;
+    width:400px;
+    height:100px;
+    box-sizing: border-box;
+}
+
+#div3{
+    font-size: larger;
+    border:5px solid blue;
+    padding:10px;
+    margin-bottom: 5px;
+    width:200px;
+    height:50px;
+    box-sizing: border-box;
+}

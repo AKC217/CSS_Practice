@@ -1,0 +1,17 @@
+p:first-child{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+p:last-child{
+    color:deeppink;
+    text-decoration: wavy red;
+}
+
+p:nth-child(2){
+    color:blue;
+}
+
+p:nth-child(even){
+    background-color: blanchedalmond;
+}

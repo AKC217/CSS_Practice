@@ -1,0 +1,12 @@
+#div1{
+    border: solid red 5px;
+    padding: 5px;
+    min-height:20px;
+    width:400px;
+    background-color: aquamarine !important;
+}
+
+#div1{
+    background-color: aqua;
+    text-decoration: blueviolet wavy underline;
+}

@@ -1,0 +1,31 @@
+  table,tr,td,th{
+    border: 1px solid;
+    width:100%; 
+    border-collapse:collapse;
+}
+
+table{
+    width:100%;
+}
+
+.t3{
+    border:1px dotted;
+    width:50%;
+    border-collapse: separate;
+    
+}
+
+#id3{
+    height:50px;
+}
+
+td{
+    text-align: center;
+}
+
+th,td{
+    padding: 10px;
+    text-align: left;
+} 
+
+

@@ -1,0 +1,69 @@
+table,th,td{
+    border: 5px solid;
+
+}
+
+td{
+    background-color: antiquewhite;
+}
+
+
+
+#q{
+    /* border:2px solid; */
+
+  
+    border-style: dotted dashed solid double;
+    border-color: blue red green rgb(187, 23, 202);
+}
+
+#last{
+    font-size:xx-large;
+    font-style:italic;
+    background-color: green;
+    /* background-image: url(https://t3.ftcdn.net/jpg/02/74/46/58/360_F_274465821_A2rcavPjGMaJkXHVTevwVjkDaX9O9js9.jpg);*/
+} 
+
+h1{
+    border:2px;
+    text-decoration:dotted;
+    text-decoration: underline;
+    background-color: aquamarine;
+    text-align:center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+#poem1{
+    font-size: xx-large;
+    color:blue;
+    /* border:1px solid;
+    border-color:orange; */
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/bcb4a57a7130a75dbd8feafda8d3ee03c7c1dd388c39f650ed5f13cf52acaa1b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#poem2{
+    color:black;
+    font-weight: bolder;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6A9CMkyGnmCz566ltg1KaIHt8Qwv8BE8UTA&s);
+    margin-left:500px;
+    margin-right: 500px;
+    /* margin-top: 100px; */
+
+}
+
+p{
+   color: blue;
+   line-height: 50px;
+   word-spacing: 20px;
+   text-indent: 20px;
+}
+
+
+
+body{
+
+    background-size: cover;
+}

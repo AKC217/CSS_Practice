@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    width:100%;
+}
+
+.navbar{
+    height:75px;
+
+}
+
+ul{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type:none;
+    gap:5px;
+    padding:3px 2px;
+    background-color: greenyellow;
+}
+
+li{
+    border:1px solid aquamarine;
+    border-radius: 5px;
+    background-color: aquamarine;
+   
+}
+
+
+span{
+
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width:500px) {
+    /* Apply the following style if width is less than or equal to 500px */
+   body{background-color: rgb(221, 0, 255);}
+   ul{
+    flex-direction: column;
+   }
+}
+
+/* nav span{
+    color: blue;
+} */
+
+li span{
+    text-decoration: underline;
+}
+
+li>span{
+    background-color: blueviolet;
+}
+
+/* adjucent sipling corrdinator example */
+h1+span{
+    color: rgb(220, 210, 20);
+}
+
+#sample{
+    color:red;
+}
+#sample::after{
+    content:"is a student";
+}
+
+#sample::before{
+    content:"before content";
+    color:rgb(216, 255, 196);
+}
+
+#sample::first-line{
+  text-decoration: underline;
+}
+
+#sample::first-letter{
+    background-color: blue;
+  }
+
+input::placeholder{
+    background-color: blue;
+    color: aqua;
+}
+  
